@@ -1,0 +1,63 @@
+/* page css */
+.documentation-page {
+  padding: 1rem;
+}
+@media (min-width: 992px) {
+  .documentation-page {
+    padding: 2rem;
+  }
+}
+
+/* components css */
+
+/* section css */
+.documentation-section {
+  margin-bottom: 2.5rem;
+}
+
+.documentation-section:last-child {
+  margin-bottom: 0;
+}
+/* table css */
+.documentation-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 2em;
+}
+
+.documentation-table th {
+  padding: 0.75rem;
+  border: 1px solid #d9d9d9;
+  background: #f5f5f5;
+  text-align: left;
+  font-weight: 600;
+}
+
+.documentation-table td {
+  padding: 0.75rem;
+  border: 1px solid #d9d9d9;
+  vertical-align: top;
+}
+
+.documentation-table td[rowspan] {
+  vertical-align: middle;
+}
+.documentation-table th:nth-child(1),
+.documentation-table th:nth-child(2),
+.documentation-table td:nth-child(1),
+.documentation-table td:nth-child(2) {
+  text-align: center;
+}
+
+/* img css */
+.documentation-image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+/* accordion CSS */
+.accordion-body {
+  padding-bottom: 0;
+}
